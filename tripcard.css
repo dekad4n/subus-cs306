@@ -1,0 +1,43 @@
+.tripcard{
+    width: 50%;
+    height: 300px;
+    background-color: #5161ce;
+    box-shadow: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.random{
+    height: 50px;
+}
+.tripcard .row{
+    flex-direction:  row;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.tripcard .button{
+    background-color: white;
+    color: #5161ce;
+    width: 25%;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.tripcard .button:hover {
+    border: 3px white solid;
+    color: white;
+    background-color: #5161ce;
+    width: 25%;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
